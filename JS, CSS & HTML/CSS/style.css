@@ -1,0 +1,146 @@
+body {
+    /* display: flex;
+    justify-content: center; */
+    background-color: #8fafaf;
+    /* width: 1000px; */
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.page-design {
+    /* background-color: red; */
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/*HOME STYLE*/
+
+.home-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.home-title {
+    margin-right: 100px;
+}
+
+.home-btn1, .home-btn2, .home-btn3, .home-btn4 {
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+/*MENU PAGE STYLE*/
+
+.login-page, .home-btn1, .home-btn3, .home-btn4,
+.orders-form {
+    display: none;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+    color: black;
+    border-width: 0;
+}
+
+.items, .items-more {
+    display: flex;
+    justify-content: left;
+    margin-bottom: -45px;
+    margin-left: 120px;
+}
+
+.item {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.item-name {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.more-event, .login-event {
+    display: flex;
+    justify-content: right;
+}
+
+.more-btn {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    /* margin-left: 800px; */
+    width: 110px;
+    height: 30px;
+}
+
+/*LOGIN PAGE STYLE*/
+
+.user-data {
+    margin-left: 200px;
+}
+
+.login-btn {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 200px;
+    width: 110px;
+    height: 30px;
+}
+
+.user-name, .user-password {
+    margin-left: 160px;
+    width: 50%;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.user-error {
+    display: none;
+    color: #FF4400;
+    margin-left: 160px;
+}
+
+/*ORDERS PAGE STYLE*/
+
+.orders, .users {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -45px;
+    margin-left: 120px;
+}
+
+.order-user, .user-img {
+    margin-right: 200px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.order-form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-select {
+    width: 400px;
+    height: 32px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.form-input {
+    width: 100px;
+    height: 25px;
+}
+
+.btn-form {
+    width: 257px;
+    margin-top: 10px;
+}

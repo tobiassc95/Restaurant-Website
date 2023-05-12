@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <meta name="description" content="Restaurante: Todo lo que pueda comer."/>
+    <link rel="stylesheet" href="CSS/normalize.css"> <!--To integrate CSS -> extern-->
+    <link rel="stylesheet" href="CSS/style.css"> <!--To integrate CSS -> extern-->
+</head>
+<body>
+    <section class="page-design">
+        <header class="home-header">
+            <h1 class="home-title">Restaurante: Menú</h1>
+            <button class="home-btn1">Menú</button>
+            <button class="home-btn2">Ingresar</button>
+            <button class="home-btn3">Pedidos</button>
+            <button class="home-btn4">Usuarios</button>
+        </header>
+
+        <section class="menu-page">
+            <!--Filled with JavaScript code.-->
+        </section>
+
+        <section class="login-page">
+            <div class="user-data">
+                <input class="user-name" type="text" required placeholder="Nombre">
+                <input class="user-password" type="password" required placeholder="Contraseña">
+                <h4 class="user-error">DATOS DEL USUARIO INCORRECTOS.</h4>
+            </div>
+            <div class="login-event">
+                <button class="login-btn">Ingresar</button>
+            </div>
+        </section>
+
+        <section class="orders-page">
+            <section class="orders-list">
+                <!--Filled with JavaScript code.-->
+            </section>
+            <section class="orders-form">
+                <div class="new-order"><h2>NUEVO PEDIDO</h2></div>
+                <hr>
+                <form class="order-form"> <!--To declare a form. So the navegador understands.-->
+                    <div>
+                        <div class="tables-data">
+                            <select class="tables-select form-select">
+                                <!--Filled with JavaScript code.-->
+                            </select>
+                        </div>
+                        <div class="orders-data">
+                            <!--Filled with JavaScript code.-->
+                        </div>
+                        <div class="form-event">
+                            <button class="add-btn btn-form">Agregar Producto</button>
+                            <button class="new-btn btn-form">Crear Pedido</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </section>
+
+        <section class="users-page">
+            <!--Filled with JavaScript code.-->
+        </section>
+    </section>
+
+    <script type="module" src="task.js"></script> <!--This goes here, so we are sure that the web page is loaded completely-->
+</body>
+</html>
